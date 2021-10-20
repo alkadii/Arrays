@@ -13,14 +13,14 @@ namespace Arrays
             #region Arrays (مصفوفات) Variable[] V-Name = new V-Type[V-Anzahl];
 
             //string[] str = new string[4];
-            //str[0] = "Khaled"; str[1] = "Mohamed";str[2] = "Hasnaa";str[3] = "Afraa";
+            //str[0] = "Khaled"; str[1] = "Mohamed"; str[2] = "Hasnaa"; str[3] = "Afraa";
             //Console.WriteLine(str[0]);
             //Console.WriteLine(str[1]);
             //Console.WriteLine(str[2]);
             //Console.WriteLine(str[3]);
             //Console.WriteLine("==========");
-            //int[] numm = new int[3];numm[0] = 5;numm[1] = 2;numm[2] = numm[0]*numm[1];
-            //Console.WriteLine(numm[2]);
+            //int[] numm = new int[3]; numm[0] = 5; numm[1] = 2; numm[2] = numm[0] * numm[1];
+            //Console.WriteLine(numm[0]);
 
 
 
@@ -50,19 +50,40 @@ namespace Arrays
 
             #region Anzahl der Arrays 
 
-            string[] nam = new string[2];
-            nam[0] = "Khaled";nam[1] = "Alkadi";
+            //string[] nam = new string[2];
+            //nam[0] = "Khaled"; nam[1] = "Alkadi";
 
-            Console.WriteLine(nam[0] + " " + nam[1]);
-
-            int arrays = nam.Length;
-            Console.WriteLine(arrays);
+            //int arrays = nam.Length;
+            //Console.WriteLine(arrays);
 
 
 
             #endregion
 
+            #region إضافة عناصر المصفوفة بشكل أسهل 
 
+            //int[] anzahl = { 10, 20, 30, 80, 90, 60, 45 };
+            //Console.WriteLine(anzahl.Length);
+            //Console.WriteLine(anzahl[2]);
+
+            #endregion
+
+            #region
+            string[] strnames = new string[4];
+            strnames[0] = "Khaked";
+            strnames[1] = "Hasnaa";
+            strnames[2] = "Afraa";
+            strnames[3] = "Mohamad";
+
+
+            for(int x = 0; x < strnames.Length;x++)
+            {
+                Console.WriteLine(strnames[x]);
+            }
+
+            #endregion
         }
+
+
     }
 }
