@@ -1,0 +1,7 @@
+C:\Users\Kha\Desktop\Git Projekt\Arrays\Arrays\bin\Debug\Arrays.exe.config
+C:\Users\Kha\Desktop\Git Projekt\Arrays\Arrays\bin\Debug\Arrays.exe
+C:\Users\Kha\Desktop\Git Projekt\Arrays\Arrays\bin\Debug\Arrays.pdb
+C:\Users\Kha\Desktop\Git Projekt\Arrays\Arrays\obj\Debug\Arrays.csprojAssemblyReference.cache
+C:\Users\Kha\Desktop\Git Projekt\Arrays\Arrays\obj\Debug\Arrays.csproj.CoreCompileInputs.cache
+C:\Users\Kha\Desktop\Git Projekt\Arrays\Arrays\obj\Debug\Arrays.exe
+C:\Users\Kha\Desktop\Git Projekt\Arrays\Arrays\obj\Debug\Arrays.pdb
