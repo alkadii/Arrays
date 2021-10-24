@@ -12,7 +12,7 @@ namespace Arrays
         {
             // ملاحظة هامة 
             // Variable var und object für alle Variable-Typen
-            
+
 
             #region Arrays (مصفوفات) Variable[] V-Name = new V-Type[V-Anzahl];
 
@@ -67,6 +67,8 @@ namespace Arrays
 
 
 
+
+
             #endregion
 
             #region إضافة عناصر المصفوفة بشكل أسهل 
@@ -107,13 +109,14 @@ namespace Arrays
             //}
 
 
+
             #endregion
 
-            #region Array.indexof(Name von Variable,nuhmmer von Variable) رقم الفهرس
+            #region Console.WriteLine(Array.indexof(Name von Variable,nuhmmer von Variable); رقم الفهرس
 
             //int[] anzahl = new int[] { 95, 4, 3, 2, 5, 643, 2, 14, 65 };
 
-            //Console.WriteLine(Array.IndexOf(anzahl,643));
+            //Console.WriteLine(Array.IndexOf(anzahl, 643));
 
 
 
@@ -143,6 +146,13 @@ namespace Arrays
             //    Console.WriteLine(an[h]);
             //}
 
+            //string h = " nereimargorP ebeiL hcI ";
+            //char[] name = h.ToCharArray();
+            //Array.Reverse(name);
+            //Console.WriteLine(name);
+
+
+
             #endregion
 
             #region Array.sort(Name von Variable); dann Array.reverse(Name von Variable); ترتيب الاعداد في (الاريي) تنازليا
@@ -155,7 +165,67 @@ namespace Arrays
             //{
             //    Console.WriteLine(an[d]);
             //}
+            //int[] an = new int[] { 76, 45, 42, 65, 87, 33 };
 
+            //Array.Reverse(an);
+            //Array.Sort(an);
+            //for (int i = 0; i < an.Length; i++)
+            //{
+            //    Console.WriteLine(an[i]);
+            //}
+            #endregion
+
+            #region Array mit foreach
+
+            //int[] r = new int[] { 2, 6, 5, 6, 8 };
+            //foreach(int t in r)
+            //{
+            //    Console.WriteLine(t);
+            //}
+
+            //string[] st = new string[] { " Ich liebe Programmieren " };
+
+
+
+
+
+            #endregion
+
+
+
+
+
+            #region الاستلام من المستخدم
+
+
+            //Console.Write(" Anzahl der gewümschten Eingaben: ");
+            //int a = int.Parse(Console.ReadLine());
+            //string[] arr = new string[a];
+            //for (int x = 0; x < arr.Length; x++)
+            //{
+
+            //    Console.Write("Eingabe " + (x + 1) + " : ");
+            //    arr[x] = Console.ReadLine();
+
+
+            //}
+            //Console.WriteLine(" Der zweite Name war: "+arr[1]);
+
+            Console.Write(" Gewünschte Anzahl eingeben: ");
+            int an = int.Parse(Console.ReadLine());
+            string[] str = new string[an];
+
+            for (int x = 0; x < an; x++)
+            {
+                Console.Write(" Eingabe " + (x + 1) + " : ");
+                str[x] = Console.ReadLine();
+            }
+
+            Console.WriteLine(" Ihre Eingaben sind ...");
+            for(int k = 0; k < str.Length; k++)
+            {
+                Console.WriteLine(str[k]);
+            }
 
 
             #endregion
@@ -166,5 +236,6 @@ namespace Arrays
         }
 
 
+        
     }
 }
