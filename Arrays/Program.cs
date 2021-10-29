@@ -211,22 +211,25 @@ namespace Arrays
             //}
             //Console.WriteLine(" Der zweite Name war: "+arr[1]);
 
-            Console.Write(" Gewünschte Anzahl eingeben: ");
-            int an = int.Parse(Console.ReadLine());
-            string[] str = new string[an];
+            //Console.Write(" Gewünschte Anzahl eingeben: ");
+            //int an = int.Parse(Console.ReadLine());
+            //string[] str = new string[an];
 
-            for (int x = 0; x < an; x++)
-            {
-                Console.Write(" Eingabe " + (x + 1) + " : ");
-                str[x] = Console.ReadLine();
-            }
+            //for (int x = 0; x < an; x++)
+            //{
+            //    Console.Write(" Eingabe " + (x + 1) + " : ");
+            //    str[x] = Console.ReadLine();
+            //}
 
-            Console.WriteLine(" Ihre Eingaben sind ...");
-            for(int k = 0; k < str.Length; k++)
-            {
-                Console.WriteLine(str[k]);
-            }
+            //Console.WriteLine(" Ihre Eingaben sind ...");
+            //for(int k = 0; k < str.Length; k++)
+            //{
+            //    Console.WriteLine(str[k]);
+            //}
 
+            
+
+            
 
             #endregion
 
